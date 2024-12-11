@@ -3,12 +3,17 @@
 
 int main()
 {
-  int age;
-  age = 10;
+  // SET age TO 10
+  int age = 10;
+ double price = 19.99;
+ bool hasPets = true;
 
-  double price = 19.99 ;
+// \n is a new line
+// std:endl is a new line
+// std::cout << computer output
+std::cout <<age << "\n" << price << std::endl << hasPets << std::endl;
 
-int pet= 1;
-int grade= 12;
+std::cout <<"I am " << age << " " <<"years old.\n";
+std::cout <<"I have a toy that I bought for" << " " << price <<" " <<"dollars.\n";
   return 0;
 }
